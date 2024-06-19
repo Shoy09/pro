@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Evaluación</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        h1 {
+            text-align: center;
+            color: #0056b3;
+        }
+        form {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 15px;
+            max-width: 800px;
+            margin: auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        label {
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+        input, select {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+            font-size: 14px;
+        }
+        button {
+            background-color: #0056b3;
+            color: #fff;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 4px;
+            font-size: 16px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        button:hover {
+            background-color: #004494;
+        }
+    </style>
+</head>
+<body>
+    <h1>Formulario de Evaluación</h1>
+    <form>
+        <div>
+            <label for="evaluador">Evaluador</label>
+            <input type="text" id="evaluador" name="evaluador">
+        </div>
+        <div>
+            <label for="evaluado">Evaluado</label>
+            <input type="text" id="evaluado" name="evaluado">
+        </div>
+        <div>
+            <label for="relacion">Relación</label>
+            <input type="text" id="relacion" name="relacion">
+        </div>
+        <div>
+            <label for="estado">Estado</label>
+            <input type="text" id="estado" name="estado">
+        </div>
+        <div>
+            <label for="cargo">Cargo</label>
+            <input type="text" id="cargo" name="cargo">
+        </div>
+        <div>
+            <label for="division">División</label>
+            <input type="text" id="division" name="division">
+        </div>
+        <div>
+            <label for="comportamiento">Comportamiento</label>
+            <input type="text" id="comportamiento" name="comportamiento">
+        </div>
+        <div>
+            <label for="respuesta">Respuesta</label>
+            <input type="text" id="respuesta" name="respuesta">
+        </div>
+        <div>
+            <label for="porcentaje">Porcentaje</label>
+            <input type="text" id="porcentaje" name="porcentaje">
+        </div>
+        <div>
+            <label for="nivel-evaluado">Nivel Evaluado</label>
+            <input type="text" id="nivel-evaluado" name="nivel-evaluado">
+        </div>
+        <div>
+            <label for="competencia">Competencia</label>
+            <input type="text" id="competencia" name="competencia">
+        </div>
+        <div>
+            <label for="nivel-competencia">Nivel Competencia</label>
+            <input type="text" id="nivel-competencia" name="nivel-competencia">
+        </div>
+        <div>
+            <label for="peso-relacion">Peso Relación</label>
+            <input type="text" id="peso-relacion" name="peso-relacion">
+        </div>
+        <div>
+            <label for="peso-comportamiento">Peso Comportamiento</label>
+            <input type="text" id="peso-comportamiento" name="peso-comportamiento">
+        </div>
+        <div>
+            <label for="sede">Sede</label>
+            <input type="text" id="sede" name="sede">
+        </div>
+        <div>
+            <label for="documento-evaluador">Documento Evaluador</label>
+            <input type="text" id="documento-evaluador" name="documento-evaluador">
+        </div>
+        <div>
+            <label for="peso-competencia">Peso Competencia</label>
+            <input type="text" id="peso-competencia" name="peso-competencia">
+        </div>
+        <div>
+            <label for="estado-evaluado">Estado Evaluado</label>
+            <input type="text" id="estado-evaluado" name="estado-evaluado">
+        </div>
+        <div>
+            <label for="estado-evaluador">Estado Evaluador</label>
+            <input type="text" id="estado-evaluador" name="estado-evaluador">
+        </div>
+        <div>
+            <label for="resultado-individual">Resultado Individual</label>
+            <input type="text" id="resultado-individual" name="resultado-individual">
+        </div>
+        <div style="grid-column: span 2; text-align: center;">
+            <button type="submit">Enviar</button>
+        </div>
+    </form>
+</body>
+</html>
